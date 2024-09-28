@@ -104,3 +104,80 @@ strong {
 {
     font-size: 1em;
 }
+.componentBlocks
+{
+    position: absolute;
+    top: 130%;
+    left: 40%;
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.block1 
+{
+    position: absolute;
+    left: 0;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background: transparent;
+}
+.block2
+{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background: transparent;
+}
+.block3 
+{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background: transparent;
+}
+.block4
+{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    background: transparent;
+}
+
+.btn-custom-download {
+    position: relative;
+    top: 150%;
+    left: -80%;
+    background-color: transparent; /* Bright yellow color */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: 2px solid #FFC300; /* Add a border */
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    z-index: 10;
+  }
+  .btn-custom-download > span
+  {
+    font-size: 1.2em;
+  }
+  .btn-custom-download:hover {
+    background-color: #FFD700; /* Slight hover effect */
+  }
