@@ -1,0 +1,96 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.back-text {
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1); /* Light text for background */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.front-text {
+    position: relative;
+    z-index: 2;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.text-warning {
+    color: #f39c12 !important; /* Customize Bootstrap warning color */
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.title {
+    font-size: 2.5rem; /* Bigger font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem; /* Increase font size */
+    line-height: 1.8;  /* Space between lines */
+    margin: 0;
+}
+
+strong {
+    color: #f39c12; /* Yellow color for labels */
+}
+/* Reduce the space between two col-md-6 divs */
+.reduce-space .col-md-6 {
+    padding-left: 10px; /* Adjust to your needs */
+    padding-right: 10px; /* Adjust to your needs */
+}
+.personal-info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add some space between personal info and stats */
+}
+
+.personal-info-section p {
+    color: white; /* Set text color to white */
+    margin-bottom: 10px; /* Add some space between the lines */
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around; /* Distribute boxes equally */
+    margin: 0 auto;
+    width: 80%; /* Adjust the width as needed */
+}
+
+.stat-box {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white; /* Set text color to white */
+    width: 1px;
+    height: 175px;
+    border-radius: 8px;
+}
+
+.stat-box p {
+    margin: 0;
+}
+
+.stat-box .stat-number {
+    font-size: 2.5em; /* Larger font size for the numbers */
+    position: relative;
+    top: -10px; /* Move the "+" symbol slightly above */
+    display: inline-block;
+}
+
+.stat-box p:nth-child(2) {
+    font-size: 1em; /* Normal font size for description */
+    margin-top: 5px;
+}
+

@@ -1,0 +1,61 @@
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #111; /* Background color for the hero section */
+    color: #fff; /* Text color */
+}
+
+.image-section {
+    background-color: #f4c10f; /* Yellow background for the image section */
+   /* Add padding around the image */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    min-height: 100vh; /* Make sure it takes full height */
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.enlarged-image {
+    width: 100%; /* Full width of its container */
+    max-width: 450px; /* Limit max width to make it larger but not too big */
+    border-radius: 10px; /* Optional: rounding the corners */
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #f4c10f; /* Yellow color for the headline */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.btn-custom {
+    background-color: #FFC300; /* Bright yellow color */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-custom:hover {
+    background-color: #FFD700; /* Slight hover effect */
+  }
+  
+  .arrow-right {
+    font-size: 16px;
+  }
+  
+  

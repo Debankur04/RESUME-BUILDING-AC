@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.back-text {
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.1); /* Light text for background */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.front-text {
+    position: relative;
+    z-index: 2;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.text-warning {
+    color: #f39c12 !important; /* Customize Bootstrap warning color */
+}
