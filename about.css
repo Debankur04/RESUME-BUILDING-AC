@@ -107,13 +107,13 @@ strong {
 .componentBlocks
 {
     position: absolute;
-    top: 130%;
+    top: 118%;
     left: 40%;
     width: 60%;
     height: 50%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom:20px;
 }
 .block1 
 {
@@ -181,3 +181,17 @@ strong {
   .btn-custom-download:hover {
     background-color: #FFD700; /* Slight hover effect */
   }
+
+.info-item{
+ display: flex;
+ gap: 0.5rem;
+}
+.info{
+    color: #727171;
+}
+.align{
+    display: flex;
+}
+.block1>.align>h2,.block2>.align>h2,.block3>.align>h2,.block4>.align>h2{
+    color: #FFC300;
+}

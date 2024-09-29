@@ -3,32 +3,23 @@ body {
     color: white; 
     font-family: sans-serif;
 }
-
-.skill {
-    text-align: center; 
+.skills{
+    position: relative;
+    top: 24rem;
+    border: 2px solid #f39c12 ;
+    padding: 2rem;
 }
-
-.outer {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%; 
-    background-color: #333; 
-    position: relative; 
-    margin: 0 auto; 
-    overflow: hidden;
+.row1,.row2{
+    display: flex;
+    justify-content: space-between;
 }
-
-.inner {
-    height: 100%; 
-    background-color: #ffc107; 
-    position: absolute;
-    bottom: 0;
-    left: 0;
+.row1{
+    margin: 2rem;
 }
-
-.percentage {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    font-size: 30px}
+progress{
+    background-color: yellow;
+}
+.resume-timeline{
+    position: relative;
+    margin-top:30rem;
+}
