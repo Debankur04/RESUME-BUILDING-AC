@@ -124,6 +124,7 @@ strong {
     border-radius: 10px;
     border: 1px solid #333;
     background: transparent;
+    padding: 0.5rem;
 }
 .block2
 {
@@ -135,6 +136,7 @@ strong {
     border-radius: 10px;
     border: 1px solid #333;
     background: transparent;
+    padding: 0.5rem;
 }
 .block3 
 {
@@ -146,6 +148,7 @@ strong {
     border-radius: 10px;
     border: 1px solid #333;
     background: transparent;
+    padding: 0.5rem;
 }
 .block4
 {
@@ -157,6 +160,7 @@ strong {
     border-radius: 10px;
     border: 1px solid #333;
     background: transparent;
+    padding: 0.5rem;
 }
 
 .btn-custom-download {
