@@ -1,0 +1,26 @@
+body {
+    background-color: #222;
+    color: white; 
+    font-family: sans-serif;
+}
+.skills{
+    position: relative;
+    top: 24rem;
+    border: 2px solid #f39c12 ;
+    height:auto;
+    padding: 2rem;
+}
+.row1,.row2{
+    display: flex;
+    justify-content: space-between;
+}
+.row1{
+    margin: 2rem;
+}
+progress{
+    background-color: yellow;
+}
+.resume-timeline{
+    position: relative;
+    margin-top:30rem;
+}
