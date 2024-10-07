@@ -7,6 +7,7 @@ body {
     position: relative;
     top: 24rem;
     border: 2px solid #f39c12 ;
+    height:auto;
     padding: 2rem;
 }
 .row1,.row2{

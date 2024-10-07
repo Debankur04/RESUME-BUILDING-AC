@@ -2,6 +2,12 @@ body
 {
     overflow-x: hidden;
 }
+body::-webkit-scrollbar
+{
+  width: 10px;
+  background: linear-gradient(to bottom, #f4c10f, #000);
+  border-radius: 5px;
+}
 .hero-section {
     min-height: 100vh;
     display: flex;
@@ -142,3 +148,51 @@ p {
     width: 80%;
     font-size: 4em;
 }
+
+.navbar {
+  background-color: #212121; /* Dark grey for the navbar */
+  position: fixed;
+  top: 23%;
+  left: 94%; 
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  border-radius: 10px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.navbar li 
+{
+  position: absolute;
+  list-style: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.navbar a {
+ 
+  
+  text-align: center;
+  padding: 20px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+
+}
+
+.navbar a:hover {
+  background-color: #333; /* Highlight on hovering */
+}
+
+.navbar a.active {
+  background-color: #ffcc00; 
+} 
+/* Yellow colour when icon  active
+  
+
+/* .navbar i {
+  display: block;
+  margin: auto;
+} */ 

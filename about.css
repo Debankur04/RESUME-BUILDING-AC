@@ -107,7 +107,7 @@ strong {
 .componentBlocks
 {
     position: absolute;
-    top: 118%;
+    margin-top: 175px; 
     left: 40%;
     width: 60%;
     height: 50%;
@@ -195,3 +195,39 @@ strong {
 .block1>.align>h2,.block2>.align>h2,.block3>.align>h2,.block4>.align>h2{
     color: #FFC300;
 }
+
+
+
+
+                                    /* circular progress bar */
+.circular-progress {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#4caf50 0% 45%, #e0e0e0 45%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner-circle {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.percentage {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+
+
+
+

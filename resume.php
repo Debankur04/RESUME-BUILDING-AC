@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="resume.css">
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="contact.css">
+  
+    <link rel="stylesheet" href="post.css">
+    <link rel="stylesheet" href="skill.css">
+    <link rel="stylesheet" href="ending.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+<!-- Home -->
+<nav class="navbar">
+  <ul>
+    <li><a href="#home" class="nav-link active"><ion-icon name="home"></ion-icon></a></li>
+    <li><a href="#about" class="nav-link"><ion-icon name="information-circle"></ion-icon></a></li>
+    <li><a href="#portfolio" class="nav-link"><ion-icon name="person"></ion-icon></a></li>
+    <!-- <li><a href="#contact" class="nav-link"><ion-icon name="person-add"></ion-icon></a></li> -->
+    <li><a href="#blog" class="nav-link"><ion-icon name="document"></ion-icon></a></li>
+  </ul>
+</nav>
+
+
+</div>
+<section id="home" class="content-section">
+<section class="hero-section d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="image-container">
+                <img src="https://img.freepik.com/free-photo/painting-man-s-portrait_23-2151155337.jpg?t=st=1727275346~exp=1727278946~hmac=9c0b3368a292958005fa6edceefc3f1ec315d83195d391468cd6c2f467689b17&w=360" alt="Steve Milner" id="homeImage">
+            </div>
+            <div class="blobImage"></div>
+            <div class="col-md-6 p-0">
+                <div class="yellow-block">
+                    
+                </div>
+              
+            </div>
+            
+
+            <!-- Right Section: Text -->
+            <div class="col-md-6 text-end">
+                <h1 class="main"><span class="yellow-line"></span> I'M STEVE MILNER.</h1>
+                <h2 class="mainDesc">WEB DESIGNER</h2>
+                <p class="NameDesc">
+                    I'm a Tunisian based web designer & front-end developer focused on crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.
+                </p>
+                <button class="btn-custom">
+                    More About Me <span class="arrow-circle">&rarr;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+  </section> 
+</section>
+<!-- ABOUT -->
+<section id="about" class="content-section">
+<div class="container text-center my-5">
+    <div class="position-relative">
+        <!-- Background Text -->
+        <p class="back-text">RESUME</p>
+        <!-- Foreground Text -->
+        <h1 class="front-text">
+            <span class="text-white">ABOUT</span>
+            <span class="text-warning">ME</span>
+        </h1>
+    </div>
+</div>
+ <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>PERSONAL INFOS</h2>
+                <div class="info-item"><span class="info"><h4>First Name: </h4></span> <h4>Steve</h4></div>
+                <div class="info-item"><span class="info"><h4>Last Name: </h4></span> <h4>Milner</h4></div>
+                <div class="info-item"><span class="info"><h4>Age: </h4></span> <h4>27 Years</h4></div>
+                <div class="info-item"><span class="info"><h4>Nationality: </h4></span> <h4>Tunisian</h4></div>
+                <div class="col-md-4">
+                <div class="info-item"><span class="info"><h4>Address: </h4></span> <h4>Tunis</h4></div>
+                <div class="info-item"><span class="info"><h4>Phone: </h4></span> <h4>+21621184010</h4></div>
+                <div class="info-item"><span class="info"><h4>Email: </h4></span><h4>You@Mail.Com</h4> </div>
+                <div class="info-item"><span class="info"><h4>Skype: </h4></span> <h4>Steve.Milner</h4></div>
+                <div class="info-item"><span class="info"><h4>Langages: </h4></span> <h4>French,English</h4></div>
+                <div class="info-item"><span class="info"><h4>Freelance: </h4></span> <h4>Available</h4></div>
+            </div>
+            <button class="btn-custom-download">
+                Download CV <span class="arrow-circle">&rarr;</span>
+            </button>
+            </div>
+                <div class="componentBlocks">
+                    <div class="block1">
+                        <div class="align">
+                            <h1>12</h1>
+                            <h2>+</h2>
+                        </div>
+                        <p>YEARS OF </P>
+                        <P>EXPERIENCE</p>
+                    </div>
+                    <div class="block2">
+                        <div class="align">
+                            <h1>97</h1>
+                            <h2>+</h2>
+                        </div>
+                        <p>COMPLETED </p>
+                        <p>PROJECTS</p>
+                    </div>
+                    <div class="block3">
+                        <div class="align">
+                            <h1>81</h1>
+                            <h2>+</h2>
+                        </div>
+                        <p>HAPPY</p>
+                        <p>CUSTOMERS</p>
+                    </div>
+                    <div class="block4">
+                        <div class="align">
+                            <h1>53</h1>
+                            <h2>+</h2>
+                        </div>
+                        <p>AWARDS</p>
+                        <p>WON</p>
+                    </div>
+                </div>
+        </div>
+      </section>
+<!-- SKILLS --> 
+<div class="skills">
+<h1>MY SKILLS</h1>
+<!-- <div class="row1">
+    <label for="file">HTML:</label>
+    <progress id="file" value="25" max="100"></progress>25%
+    <label for="file">JAVASCRIPT:</label>
+    <progress id="file" value="79" max="100"></progress>79%
+    <label for="file">CSS:</label>
+    <progress id="file" value="70" max="100"></progress>70%
+    <label for="file">PHP:</label>
+    <progress id="file" value="66" max="100"></progress>66%
+</div> -->
+<!-- Circular progress bar -->
+ 
+<div class="container">
+  <div class="row">
+      <div class="circular-progress" data-percentage="65">
+          <div class="inner-circle">
+              <div class="percentage">65%</div>
+          </div>
+      </div>
+      <div class="circular-progress" data-percentage="45">
+          <div class="inner-circle">
+              <div class="percentage">45%</div>
+          </div>
+      </div>
+      <div class="circular-progress" data-percentage="87">
+          <div class="inner-circle">
+              <div class="percentage">87%</div>
+          </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="circular-progress" data-percentage="29">
+          <div class="inner-circle">
+              <div class="percentage">29%</div>
+          </div>
+      </div>
+      <div class="circular-progress" data-percentage="36">
+          <div class="inner-circle">
+              <div class="inner-circle">
+                  <div class="percentage">36%</div>
+              </div>
+          </div>
+      </div>
+      <div class="circular-progress" data-percentage="75">
+          <div class="inner-circle">
+              <div class="percentage">75%</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- ---------------------------------------------------------------------------------------- -->
+<!-- <div class="row2">
+    <label for="file">WORDPRESS:</label>
+    <progress id="file" value="95" max="100"></progress>95%
+    <label for="file">JQUERY:</label>
+    <progress id="file" value="50" max="100"></progress>50%
+    <label for="file">ANGULAR:</label>
+    <progress id="file" value="65" max="100"></progress>65%
+    <label for="file">REACT:</label>
+    <progress id="file" value="45" max="100"></progress>45%
+</div> -->
+</div>
+ <!-- Experience&Education -->
+ <section class="resume-timeline">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="resume-item">
+            <div class="icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <span class="date">2018 - PRESENT</span>
+            <h3>WEB DEVELOPER <span>— ENVATO</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>
+          </div>
+
+          <div class="resume-item">
+            <div class="icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <span class="date">2013 - 2018</span>
+            <h3>UI/UX DESIGNER <span>— THEMEFOREST</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>
+          </div>
+
+          <div class="resume-item">
+            <div class="icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <span class="date">2005 - 2013</span>
+            <h3>CONSULTANT <span>— VIDEOHIVE</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="resume-item">
+            <div class="icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <span class="date">2015</span>
+            <h3>ENGINEER DEGREE <span>— OXFORD UNIVERSITY</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>
+          </div>
+
+          <div class="resume-item">
+            <div class="icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <span class="date">2012</span>
+            <h3>MASTER DEGREE <span>— KIEV UNIVERSITY</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>
+          </div>
+
+          <div class="resume-item">
+            <div class="icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <span class="date">2009</span>
+            <h3>BACHELOR DEGREE <span>— TUNIS HIGH SCHOOL</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  
+</section>
+   <!-- Portfolio  -->
+    
+   <section id="portfolio" class="content-section">
+    <div class="imagerow1">
+      <img src="360_F_571060419_Owx0HieYkYocICzV4W7IxmXpdmP1xo7F.jpg" alt="" class="image1">
+      <img src="autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.avif" alt="" class="image2">
+      <img src="hd-car-o3yvt8dloqz5cvm4.jpg" alt="" class="image3">
+    </div>
+    <div class="imagerow2">
+      <img src="images.jpg" alt="" class="image4">
+      <img src="pngtree-wolfs-full-hd-wallpaper-art-wallpaper-1920x1080-1080p-image_2571308.jpg" alt="" class="image5">
+      <img src="wet-sphere-reflective-water-abstract-beauty-generated-by-ai_188544-19616.avif" alt="" class="image6">
+    </div>
+    <!-- contact -->
+    <section id="contact" class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="display-5 fw-bold">DON'T BE SHY!</h2>
+              <p class="mt-4">Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
+              
+              <div class="contact-info mt-4">
+                <p><i class="fas fa-envelope icon-style"></i> <strong>MAIL ME</strong></p>
+                <p>steve@mail.com</p>
+                <p><i class="fas fa-phone icon-style"></i> <strong>CALL ME</strong></p>
+                <p>+216 21 184 010</p>
+              </div>
+              
+              <div class="social-icons mt-4">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-dribbble"></i></a>
+              </div>
+            </div>
+    
+            <!-- Form Section -->
+            <div class="col-md-6">
+              <form action="" method="post" class="p-4 bg-dark rounded form-style" name="contact-form">
+                <div class="mb-3">
+                  <input type="text" name= "username"class="form-control form-input rounded-pill" placeholder="YOUR NAME" required>
+                </div>
+                <div class="mb-3">
+                  <input type="email" name= "email"class="form-control form-input rounded-pill" placeholder="YOUR EMAIL" required>
+                </div>
+                <div class="mb-3">
+                  <input type="text" name= "sub"class="form-control form-input rounded-pill" placeholder="YOUR SUBJECT" required>
+                </div>
+                <div class="mb-3">
+                  <textarea  name="message" class="form-control form-input rounded-3" rows="5" placeholder="YOUR MESSAGE" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning text-dark w-100 rounded-pill fw-bold">
+                  <i class="fas fa-paper-plane"></i> SEND MESSAGE
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+     
+<!-- POSTS -->
+<section id="blog" class="content-section">
+ <div class="position-relative">
+    <!-- Background Text -->
+    <h1 class="back-text">POSTS</h1>
+    <!-- Foreground Text -->
+    <h1 class="front-text2">
+        <span class="text-white">MY</span>
+        <span class="text-warning">BLOG</span>
+    </h1>
+</div>
+
+
+ <!-- <h2>MY BLOG</h2> -->
+  <!-- <div class="imagerow1">
+    <img src="360_F_571060419_Owx0HieYkYocICzV4W7IxmXpdmP1xo7F.jpg" alt="" class="image1">
+    <img src="autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.avif" alt="" class="image2">
+    <img src="hd-car-o3yvt8dloqz5cvm4.jpg" alt="" class="image3">
+  </div>
+  <div class="imagerow2">
+    <img src="images.jpg" alt="" class="image4">
+    <img src="pngtree-wolfs-full-hd-wallpaper-art-wallpaper-1920x1080-1080p-image_2571308.jpg" alt="" class="image5">
+    <img src="wet-sphere-reflective-water-abstract-beauty-generated-by-ai_188544-19616.avif" alt="" class="image6">
+  </div> -->
+
+  <h1>Welcome to My Blog</h1>
+
+<!-- Section to Add a New Blog Post -->
+<section id="add-new-blog">
+    <h2>Add a New Blog Post</h2>
+    <form action="" method="POST">
+        <label for="title">Title:</label><br>
+        <input type="text" name="title" required><br><br>
+
+        <label for="content">Content:</label><br>
+        <textarea name="content" rows="10" cols="30" required></textarea><br><br>
+
+        <input type="submit" name="submit" value="Add Blog">
+    </form>
+
+    <?php
+    // Check if the form is submitted
+    if (isset($_POST['submit'])) {
+        // 1. Connect to the database
+        $conn = new mysqli('localhost', 'root', '', 'blog_website');
+
+        // 2. Check for connection error
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        // 3. Get the form input and prevent SQL injection
+        $title = $conn->real_escape_string($_POST['title']);
+        $content = $conn->real_escape_string($_POST['content']);
+
+        // 4. Insert new blog post into the database
+        $sql = "INSERT INTO blogs (title, content) VALUES ('$title', '$content')";
+
+        if ($conn->query($sql) === TRUE) {
+            echo "New blog post added successfully!";
+        } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+
+        // 5. Close the connection
+        $conn->close();
+    }
+    ?>
+</section>
+
+<!-- Section to Display Blog Posts -->
+<section id="blog-posts">
+    <h2>Latest Blog Posts</h2>
+
+    <?php
+    // 1. Connect to the database
+    $conn = new mysqli('localhost', 'root', '', 'blog_website');
+
+    // 2. Check for connection error
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // 3. Fetch blog posts from the database
+    $sql = "SELECT * FROM blogs ORDER BY created_at DESC";
+    $result = $conn->query($sql);
+
+    // 4. Display the blog posts
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            echo "<h3>" . $row['title'] . "</h3>";
+            echo "<p>" . nl2br($row['content']) . "</p>";
+            echo "<small>Posted on: " . $row['created_at'] . "</small>";
+            echo "<hr>";
+        }
+    } else {
+        echo "No blog posts available.";
+    }
+
+    // 5. Close the connection
+    $conn->close();
+    ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</section>
+</body>
+<script src="script.js"></script>
+<script src="navbar.js"></script>
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxHbDDp6OB8iDERvfEstPZ2vOClj1Xo31jdCZ9y9cOcNYl5F7jgvKwtiTw_suaR7HY/exec'
+const form = document.forms['contact-form']
+form.addEventListener('submit', e => {
+e.preventDefault()
+fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+.then(response => alert("Thank you! your form is submitted successfully." ))
+.then(() => { window.location.reload(); })
+.catch(error => console.error('Error!', error.message))
+})
+
+</script>
+
+</html>
